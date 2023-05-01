@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./out
+        working-directory: out
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
