@@ -7,6 +7,9 @@ jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./out
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
@@ -16,7 +19,6 @@ jobs:
         version: v0.2.7
         token: ${{ github.token }}
     - name: Build place file
-      working-directory: out
       run: rojo build -o game.rbxl
     - name: Publish place
       run: rbxcloud experience publish -f game.rbxl -p 13312123823 -u 4637812689 -t published -a ${{ secrets.API_KEY }}
