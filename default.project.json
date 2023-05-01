@@ -9,6 +9,7 @@
 		"ServerScriptService": {
 			"$className": "ServerScriptService",
 			"TS": {
+				"$className": "Folder",
 				"$path": "out/server"
 			}
 		},
