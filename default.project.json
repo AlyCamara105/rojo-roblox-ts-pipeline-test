@@ -55,6 +55,12 @@
 				"$properties": {
                     "Anchored": true
                 }
+			},
+			"Part2": {
+				"$className": "Part",
+				"$properties": {
+                    "Anchored": true
+                }
 			}
 		},
 		"HttpService": {

@@ -44,18 +44,6 @@
 			"$className": "Workspace",
 			"$properties": {
 				"FilteringEnabled": true
-			},
-			"Part": {
-				"$className": "Part",
-				"$properties": {
-                    "Anchored": true
-                }
-			},
-			"Part2": {
-				"$className": "Part",
-				"$properties": {
-                    "Anchored": true
-                }
 			}
 		},
 		"HttpService": {
