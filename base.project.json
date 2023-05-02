@@ -9,7 +9,6 @@
 		"ServerScriptService": {
 			"$className": "ServerScriptService",
 			"TS": {
-				"$className": "Folder",
 				"$path": "out/server"
 			}
 		},
@@ -20,13 +19,11 @@
 				"node_modules": {
 					"$className": "Folder",
 					"@rbxts": {
-						"$className": "Folder",
 						"$path": "node_modules/@rbxts"
 					}
 				}
 			},
 			"TS": {
-				"$className": "Folder",
 				"$path": "out/shared"
 			}
 		},
@@ -35,7 +32,6 @@
 			"StarterPlayerScripts": {
 				"$className": "StarterPlayerScripts",
 				"TS": {
-					"$className": "Folder",
 					"$path": "out/client"
 				}
 			}

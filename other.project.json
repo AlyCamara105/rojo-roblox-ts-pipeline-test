@@ -9,7 +9,6 @@
 		"ServerScriptService": {
 			"$className": "ServerScriptService",
 			"TS": {
-				"$className": "Folder",
 				"$path": "out/server"
 			}
 		},
@@ -20,13 +19,11 @@
 				"node_modules": {
 					"$className": "Folder",
 					"@rbxts": {
-						"$className": "Folder",
 						"$path": "node_modules/@rbxts"
 					}
 				}
 			},
 			"TS": {
-				"$className": "Folder",
 				"$path": "out/shared"
 			}
 		},
@@ -35,7 +32,6 @@
 			"StarterPlayerScripts": {
 				"$className": "StarterPlayerScripts",
 				"TS": {
-					"$className": "Folder",
 					"$path": "out/client"
 				}
 			}
@@ -44,18 +40,6 @@
 			"$className": "Workspace",
 			"$properties": {
 				"FilteringEnabled": true
-			},
-			"Part": {
-				"$className": "Part",
-				"$properties": {
-                    "Anchored": true
-                }
-			},
-			"Part2": {
-				"$className": "Part",
-				"$properties": {
-                    "Anchored": true
-                }
 			}
 		},
 		"HttpService": {
